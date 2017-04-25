@@ -1377,6 +1377,7 @@ $(document).ready(function() {
 
 	// global instance
 	OCA.External.Settings.mountConfig = mountConfigListView;
+	$("#body-settings").trigger("mountConfigLoaded");
 
 	/**
 	 * Legacy
